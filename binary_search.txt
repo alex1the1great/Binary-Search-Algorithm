@@ -1,0 +1,8 @@
+# Binary Search Algorithm.
+1. Sort the list.
+2. Find the middle index.
+3. Check the value a the middle index; if it's the value we're looking for return True.
+4. Check the value a the middle index; if it's greater than the value we're looking for, cut off the right half of the list.
+5. Check the value a the middle index; if it's less than the value we're looking for, cut off the left half of the list.
+6. Repeat steps 2 through 6 until the list is empty.
+if the while loops ends, it means there's no items left, so return False.
