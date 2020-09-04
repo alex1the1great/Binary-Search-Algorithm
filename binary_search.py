@@ -4,8 +4,6 @@ from random import shuffle
 numbers_list = [i for i in range(10)]
 shuffle(numbers_list)  # shuffle the numbers list.
 
-# sorted_numbers_list = sorted(numbers_list)  # sort numbers list in ascending order.
-
 
 def binary_search(nums_list, search_number):
     nums_list.sort()  # sort the list
